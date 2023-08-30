@@ -412,11 +412,3 @@ const sortedFoodByCarbohydrates = getFoodByCabAscending();{
 console.log(sortedFoodByCarbohydrates);
 }
 }
-function displayFood(foodList) {
-    const outputContainer = document.getElementById("outputContainer");
-    outputContainer.innerHTML = ""; 
-     
-  }
-
-
-document.getElementById("outputContainer").innerHTML = sortedProteinFood; 
